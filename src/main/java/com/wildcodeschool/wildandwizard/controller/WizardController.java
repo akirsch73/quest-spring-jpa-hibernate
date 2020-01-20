@@ -42,6 +42,7 @@ public class WizardController {
         return "wizard";
     }
 
+
     @PostMapping("/wizard")
     public String postWizard(@ModelAttribute Wizard wizard) {
 
